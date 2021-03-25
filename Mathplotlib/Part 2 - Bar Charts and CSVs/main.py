@@ -40,7 +40,7 @@ popularity.reverse()
 
 plt.barh(languages, popularity, color = "#5A7D9A") # barh =>  Vertical bar chart
 
-plt.legend("Most popular languages")
+plt.title("Most popular languages")
 
 plt.xlabel("Number of people using")
 
