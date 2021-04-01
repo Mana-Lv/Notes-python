@@ -8,6 +8,8 @@ schemas_df = pd.read_csv("C:\\Users\\Al120\\Desktop\\Programmation\\Github\\Note
 pd.set_option('display.max_columns', 85)
 pd.set_option('display.max_rows', 85)
 
+
+
 high_salary = (df['ConvertedComp'] > 70000)
 filt_python = df['LanguageWorkedWith'].str.contains('Python', na = False)
 
