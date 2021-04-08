@@ -6,7 +6,7 @@ plt.style.use("seaborn")
 # Paramètre usuel pour le plot : color, linestyle, marker, label, linewidth
 
 # Donne un DataFrame avec les données CSV
-data = pd.read_csv('C:\\Users\\Al120\\Desktop\\Programmation\\Github\\Notes python\\Mathplotlib\\Part 5 - Filling Area On Line Plot\\data.csv')
+data = pd.read_csv('C:\\Users\\Al120\\Desktop\\Programmation\\Github\\Notes python\\Mathplotlib\\Data\\data-salaries-dev.csv')
 ages = data['Age']
 dev_salaries = data['All_Devs']
 py_salaries = data['Python']
