@@ -29,3 +29,7 @@ df = df.drop(index = 3)
 
 df.drop(index = df[df['First'] == 'Jill'].index) # Conditionnel
 
+# En externalisant la contrainte, pour plus de lisibilité
+filt = df['First'] == 'Jill'
+df.drop(index = df[filt].index)
+
