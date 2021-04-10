@@ -31,8 +31,10 @@ plt.gca().xaxis.set_major_formatter(date_format)
 """
 
 data = pd.read_csv(("C:\\Users\\Al120\\Desktop\\Programmation\\Github\\Notes-Python\\Mathplotlib\\Data\\bitcoin.csv"))
+
 # price_date = data['Date']
-# price_date = price_date.sort_values()
+# price_date = price_date.sort_values() # Attention à bien trier ses données si besoin
+
 price_close = data['Close']
 
 plt.plot_date(price_date, price_close, linestyle = 'solid')
